@@ -203,3 +203,73 @@ footer {
     display: flex;
 
 }
+
+.kittentext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.sithtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 229px;
+    margin-top: 20px;
+}
+
+.vikingtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 458px;
+    margin-top: 20px;
+}
+
+.wizardtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 687px;
+    margin-top: 20px;
+}
+
+.hamtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 250px;
+    
+}
