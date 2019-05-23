@@ -1,6 +1,6 @@
 body {
     background: goldenrod;
-    background-image: ;
+    background-image: "#";
     background-repeat: no-repeat;
   }
 
@@ -142,6 +142,11 @@ footer {
 #fillbox {
     width:960px;
 }
+
+#fillbox2 {
+    width:960px;
+}
+
 
 #messagebox{
     width:960px;
