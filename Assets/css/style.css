@@ -1,6 +1,6 @@
 body {
     background: goldenrod;
-    background-image: "#";
+    background-image: url("https://github.com/JoeLearns2Code/Basic-Portfolio/blob/master/Assets/images/fabric_1.png");
     background-repeat: no-repeat;
   }
 
@@ -51,6 +51,7 @@ hr {
     position:absolute;
     float: top;
     float: left;
+    line-height: 1.5;
     
 }
 
@@ -197,9 +198,8 @@ footer {
     color: #4aaaa5
 }
 
-.kittens{
-    position: absolute;
-    margin-bottom: 150px;
-    
+
+.portimage {
+    display: flex;
 
 }
