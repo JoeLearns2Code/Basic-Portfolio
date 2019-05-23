@@ -22,15 +22,22 @@
     <div class="myname"><H1>Joe Hutchinson</H1></div>
     
     </header>
-    <h2>Contact</h2>
-
+    <div class="form">
+    <div id="contact"><h1>Contact</h1></div>
+    <hr>
+    <br>
     <form action="/action_page.php" method="get" name="contactForm">
-        Name: <input type="text" name="name"><br>
-        Email: <input type="text" name="email"><br>
-        Message: <input type="text" name="message"><br>
-        <input type="button" onclick="messageSubmit()" value="Submit">
+        <p>Name:</p>
+        <p><input type="text" name="name" id="fillbox"></p>
+        <p>Email:</p> 
+        <p><input type="text" name="email" id="fillbox"></p>
+        <p>Message:</p> 
+        
+        <p><input type="text" name="message" id="messagebox"></p>
+        
+        <p><input type="button" onclick="messageSubmit()" value="Submit" id="submitbutton"></p>
     </form>
-
+    </div>
 
 
     <footer>

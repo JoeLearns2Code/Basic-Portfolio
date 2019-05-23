@@ -1,6 +1,6 @@
 body {
     background: goldenrod;
-    background-image: url("assets/images/fabric_1.png");
+    background-image: ;
     background-repeat: no-repeat;
   }
 
@@ -28,11 +28,12 @@ hr {
    font-family: Arial, Helvetica, sans-serif;
    color: #777777;
 
+
 }
 
 header {
     background-color: #ffffff;
-    Position: fixed;
+    Position: absolute;
     Top: 0;
     Left: 0;
     width: 100%;
@@ -57,6 +58,7 @@ H1 {
     text-align: center;
     vertical-align: middle;
     line-height: 80px;
+    
 }
 
 #aboutme {
@@ -82,12 +84,7 @@ H1 {
 
 .wrapper {
 
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex: 1 0 auto;
+    
     width: 960px;
     margin-left: 250px;
     margin-top: 150px;
@@ -95,6 +92,7 @@ H1 {
     padding: 2%;
     color: #777777;
     background-color: #ffffff;
+    position: absolute;
    
 }
 
@@ -108,6 +106,43 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
-    position: fixed;
     
+    
+}
+
+/* unique to contact.html page */
+
+.form {
+    background-color: #ffffff;
+    float: right;
+    position: absolute;
+    padding: 20px;
+    width: 960px;
+    margin-left: 250px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    color: #777777;
+
+}
+
+
+#contact{ 
+    color: #4aaaa5
+}
+
+#fillbox {
+    width:960px;
+}
+
+#messagebox{
+    width:960px;
+    height: 200px;
+}
+
+#submitbutton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
 }
