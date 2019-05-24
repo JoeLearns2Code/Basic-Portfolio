@@ -54,6 +54,7 @@ hr {
     
 }
 
+/* Need to figure out why above element collapses with window, but below element does not. */
 
 .topnav {
    float: right;
